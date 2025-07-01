@@ -2,8 +2,8 @@
 
 A production-ready, type-safe scroll animation library for React applications. Reveal elements with beautiful animations as they enter the viewport using IntersectionObserver, with support for GSAP, Framer Motion, and Headless UI.
 
-[![npm version](https://img.shields.io/npm/v/react-scroll-reveal.svg)](https://www.npmjs.com/package/react-scroll-reveal)
-[![Bundle Size](https://img.shields.io/bundlephobia/minzip/react-scroll-reveal)](https://bundlephobia.com/package/react-scroll-reveal)
+[![npm version](https://img.shields.io/npm/v/@allwells/react-scroll-reveal.svg)](https://www.npmjs.com/package/@allwells/react-scroll-reveal)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@allwells/react-scroll-reveal)](https://bundlephobia.com/package/@allwells/react-scroll-reveal)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -23,11 +23,11 @@ A production-ready, type-safe scroll animation library for React applications. R
 ## Installation
 
 ```bash
-npm install react-scroll-reveal framer-motion gsap @headlessui/react
+npm install @allwells/react-scroll-reveal framer-motion gsap @headlessui/react
 # or
-yarn add react-scroll-reveal framer-motion gsap @headlessui/react
+yarn add @allwells/react-scroll-reveal framer-motion gsap @headlessui/react
 # or
-pnpm add react-scroll-reveal framer-motion gsap @headlessui/react
+pnpm add @allwells/react-scroll-reveal framer-motion gsap @headlessui/react
 ```
 
 ## Quick Start
