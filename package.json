@@ -1,6 +1,6 @@
 {
   "name": "@allwells/react-scroll-reveal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Production-ready, type-safe scroll animation library for React",
   "author": "The Web Architect <aleenfestus@gmail.com>",
   "license": "MIT",
