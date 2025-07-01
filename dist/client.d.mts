@@ -1,0 +1,2 @@
+export { AnimationConfig, AnimationEngine, AnimationType, BatchObserver, CustomAnimation, ObserverManager, ObserverOptions, ScrollReveal, ScrollRevealConfig, ScrollRevealProps, ScrollRevealProvider, ScrollRevealProviderProps, UseScrollRevealOptions, UseScrollRevealReturn, VERSION, animationPresets, combineAnimations, createAnimation, createObserver, isSSR, safeRequestAnimationFrame, safeWindow, useAnimationDisabled, useScrollReveal, useScrollRevealContext, useScrollRevealControls } from './index.mjs';
+export { CSSProperties, ReactNode, RefObject } from 'react';
