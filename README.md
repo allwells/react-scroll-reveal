@@ -33,7 +33,7 @@ pnpm add @allwells/react-scroll-reveal framer-motion gsap @headlessui/react
 ## Quick Start
 
 ```tsx
-import { ScrollReveal } from 'react-scroll-reveal';
+import { ScrollReveal } from '@allwells/react-scroll-reveal';
 
 function App() {
   return (
@@ -115,7 +115,7 @@ function App() {
 Wrap your app with `ScrollRevealProvider` to set default options:
 
 ```tsx
-import { ScrollRevealProvider } from 'react-scroll-reveal';
+import { ScrollRevealProvider } from '@allwells/react-scroll-reveal';
 
 function App() {
   return (
@@ -168,7 +168,7 @@ function App() {
 For programmatic control:
 
 ```tsx
-import { useScrollReveal } from 'react-scroll-reveal';
+import { useScrollReveal } from '@allwells/react-scroll-reveal';
 
 function Component() {
   const ref = useRef<HTMLDivElement>(null);
@@ -194,7 +194,7 @@ function Component() {
 Control multiple elements:
 
 ```tsx
-import { useScrollRevealControls } from 'react-scroll-reveal';
+import { useScrollRevealControls } from '@allwells/react-scroll-reveal';
 
 function Controller() {
   const controls = useScrollRevealControls();
@@ -237,7 +237,7 @@ function StaggeredList({ items }) {
 ### Combining Animations
 
 ```tsx
-import { combineAnimations, animationPresets } from 'react-scroll-reveal';
+import { combineAnimations, animationPresets } from '@allwells/react-scroll-reveal';
 
 const customAnimation = combineAnimations(
   animationPresets.fade,
